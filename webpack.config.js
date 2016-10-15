@@ -1,13 +1,13 @@
-    //publicPath: '/dist',
+
 module.exports = {
   entry: [
     './src/index.js'
   ],
   output: {
     path: __dirname+'/dist',
-    library:'react-minimal-components',
+    library:'library-name',
     libraryTarget:'umd',
-    filename: 'react-minimial-components.js'
+    filename: 'library-name.js'
   },
   module: {
     loaders: [{
